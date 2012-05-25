@@ -1,0 +1,84 @@
+body
+{
+	background: #FBF5D3;
+	color: #0D162E;
+	font-family: 'hellmo', Arial;
+	font-size:16px;
+}
+
+@font-face {
+	font-family: 'hellmo';
+	src: url('../fuentes/hellmo/hellmo-webfont.eot?#iefix') format('embedded-opentype'), 
+	     url('../fuentes/hellmo/hellmo-webfont.woff') format('woff'), 
+	     url('../fuentes/hellmo/hellmo-webfont.ttf')  format('truetype'),
+	     url('../fuentes/hellmo/hellmo-webfont.svg#ShortStackRegular') format('svg');
+	}
+
+header
+{
+	background:#16555A;
+	border-radius:0.5em;
+	box-shadow:0px 7px 10px rgba(22,85,90,0.7);
+	color: #FBF5D3;
+	font-size:.75em;
+	height:10.2em;
+	width: 100%;
+}
+
+h1
+{
+	color:#0D162E;
+	text-align:center;
+	text-shadow: 7px 7px 10px rgba(251,245,211,0.7);
+}
+
+#encabezado
+{
+	display: inline-block;
+	margin: 0 auto 0 auto;
+}
+
+#encabezado .logo
+{
+	float:left;
+	padding:7px;
+}
+#encabezado .my_menu
+{
+	float:right;
+	padding:3.2em 4em 0em 0em;
+}
+
+#primer-parrafo
+{
+	background: #2A9EAD;
+	border-radius: 0.5em;
+	box-shadow: 0px 7px 10px rgba(0,0,0,0.7);
+	color: #FBF5D3;
+	display: block;
+	margin: 1em auto;
+	padding:1em;
+	width: 80%;
+}
+
+.naranja
+{
+	color:orange;
+	font-weight: bold;
+}
+#color1
+{
+	color:#FBF5D3;
+}
+#color2
+{
+	color:#0D162E;
+}
+#color3
+{
+	color:#2A9EAD;
+}
+#color4
+{
+	color:#16555A;
+}
