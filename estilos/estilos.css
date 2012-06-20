@@ -21,7 +21,7 @@ header
 	box-shadow:0px 7px 10px rgba(22,85,90,0.7);
 	color: #FBF5D3;
 	font-size:.75em;
-	height:10.2em;
+	height:7.5em;
 	width: 100%;
 }
 
@@ -34,7 +34,6 @@ h1
 
 #encabezado
 {
-	display: inline-block;
 	margin: 0 auto 0 auto;
 }
 
@@ -46,7 +45,7 @@ h1
 #encabezado .my_menu
 {
 	float:right;
-	padding:3.2em 4em 0em 0em;
+	padding:10px;
 }
 
 #primer-parrafo
