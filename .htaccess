@@ -1,0 +1,6 @@
+SetOutputFilter DEFLATE 
+AddEncoding x-compress .Z
+AddEncoding x-gzip .gz .tgz
+AddType application/x-compress .Z
+AddType application/x-gzip .gz .tgz
+AddOutputFilterByType DEFLATE text/php text/HTML text/txt
